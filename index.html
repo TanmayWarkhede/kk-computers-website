@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KK Computers - Home</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .backdrop-blur {
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+  <!-- Navbar (Glass Effect) -->
+  <nav class="fixed top-0 w-full bg-white/70 text-indigo-800 p-4 flex justify-between items-center shadow-md backdrop-blur z-50">
+    <div class="flex items-center space-x-2">
+      <img src="images/2kk.png" alt="KK Computers Logo" class="h-10">
+      <span class="text-2xl font-bold">KK Computers</span>
+    </div>
+    <ul class="flex space-x-4 text-lg font-medium">
+      <li><a href="index.html" class="hover:text-blue-500">Home</a></li>
+      <li><a href="services.html" class="hover:text-blue-500">Services</a></li>
+      <li><a href="events.html" class="hover:text-blue-500">Events</a></li>
+      <li><a href="team.html" class="hover:text-blue-500">Team</a></li>
+      <li><a href="contact.html" class="hover:text-blue-500">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section with Background Image -->
+  <header class="bg-cover bg-center h-screen flex flex-col justify-center items-center text-white text-center relative" style="background-image: url('images/carousel-1.jpg');">
+    <div class="bg-black/50 absolute inset-0"></div>
+    <div class="relative z-10 px-6">
+      <h1 class="text-5xl md:text-6xl font-bold mb-4">Empowering Youth with IT Skills</h1>
+      <p class="text-xl mb-6">Innovate. Learn. Hack the Web with Us.</p>
+      <a href="events.html" class="bg-amber-400 text-black px-6 py-2 rounded font-bold text-lg hover:bg-amber-300 transition shadow-lg">Join Hack the Web</a>
+    </div>
+  </header>
+
+  <!-- Our Services Section -->
+  <section class="py-16 bg-gray-50">
+    <h2 class="text-4xl font-bold text-center text-indigo-800 mb-10">Our Services</h2>
+    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 px-6">
+      <div class="bg-white rounded-lg shadow-lg hover:shadow-2xl p-6 transition transform hover:-translate-y-1 text-center">
+        <img src="images/course-1.jpg" class="w-full h-40 object-cover rounded mb-4">
+        <h3 class="text-2xl font-semibold mb-2 text-indigo-700">IT Training</h3>
+        <p class="text-gray-600">Hands-on practical IT training with industry experts guiding every step.</p>
+      </div>
+      <div class="bg-white rounded-lg shadow-lg hover:shadow-2xl p-6 transition transform hover:-translate-y-1 text-center">
+        <img src="images/course-2.jpg" class="w-full h-40 object-cover rounded mb-4">
+        <h3 class="text-2xl font-semibold mb-2 text-indigo-700">Certifications</h3>
+        <p class="text-gray-600">Get globally recognized certifications and boost your career profile.</p>
+      </div>
+      <div class="bg-white rounded-lg shadow-lg hover:shadow-2xl p-6 transition transform hover:-translate-y-1 text-center">
+        <img src="images/course-3.jpg" class="w-full h-40 object-cover rounded mb-4">
+        <h3 class="text-2xl font-semibold mb-2 text-indigo-700">Software Projects</h3>
+        <p class="text-gray-600">Build live projects and learn by doing — real experience for real impact.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Partners Section -->
+  <section class="py-16 bg-white text-center">
+    <h2 class="text-4xl font-bold text-indigo-800 mb-10">Our Partners</h2>
+    <div class="flex flex-wrap justify-center gap-8 items-center grayscale hover:grayscale-0 transition">
+      <img src="images/nsdc.png" class="h-16">
+      <img src="images/ddugky.png" class="h-16">
+      <img src="images/pmkvy.png" class="h-16">
+      <img src="images/mepma.png" class="h-16">
+      <img src="images/sc.png" class="h-16">
+      <img src="images/SEEDAP.png" class="h-16">
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gradient-to-r from-indigo-800 to-blue-500 text-white text-center py-4">
+    &copy; 2025 KK Computers | Crafted with ❤️ for Hack the Web
+  </footer>
+
+</body>
+</html>
